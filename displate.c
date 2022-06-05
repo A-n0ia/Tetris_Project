@@ -207,18 +207,7 @@ void bestscores(Scoring scoreboard[10],Scoring player,Variables variables,FILE* 
         }
     }
 
-    //Phew, we can finally move on to the ranking of the other difficulties (it will be much shorter this time, don't worry)    
-        
-        
-            /*for(int i=0;i<10;i++){
-                lg_pseudo= strlen(scoreboard[i].pseudo);
-                if(lg_pseudo<8){
-                    printf("\e[33m%s\e[0m\t\tlevel : %d\tscore : %d\n",scoreboard[i].pseudo,scoreboard[i].level,scoreboard[i].score);
-                }
-                else{
-                    printf("\e[33m%s\e[0m\tlevel : %d\tscore : %d\n",scoreboard[i].pseudo,scoreboard[i].level,scoreboard[i].score);
-                }
-            }*/
+    //Phew, we can finally move on to the ranking of the other difficulties (it will be much shorter this time, don't worry)
 
     else if(score==CTE1){
         rewind(highscores_Classic);
