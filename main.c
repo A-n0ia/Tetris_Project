@@ -233,7 +233,7 @@ int main(){
         }
 
         do{
-            printf("\n\nVotre partie est terminé\nSouhaité vous recommencer une partie ?\n");
+            printf("\n\nVotre partie est terminé\nSouhaité vous recommencer une partie ?\n\t\e[3mTapez 1 pour OUI, J'ADORE CE JEU ! et 0 pour non...\e[0m\n");
             scanf("%s",ask_game);
         }while(ask_game[0]!='0' && ask_game[0]!='1');
         game=ask_game[0]-CTE48;
