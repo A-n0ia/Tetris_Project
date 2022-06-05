@@ -1,5 +1,8 @@
 #include "Headers.h"
 
+/*This procedure is used to initialize all the Tetriminos that will be used in the game, 
+listing their height, width, color and their different shapes depending on their orientation.*/
+
 void piece_generator(Piece piece_array[7][4]){
     
     //Tetrimino I (2 orientation)
